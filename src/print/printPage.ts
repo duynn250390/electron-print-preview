@@ -1,10 +1,10 @@
-import {HtmlConstruct} from "./type";
-export default function (config: HtmlConstruct = {style: "", script: ""}) {
-    return `<!DOCTYPE html>
+import { HtmlConstruct } from './type'
+export default function (config: HtmlConstruct = { style: '', script: '' }) {
+  return `<!DOCTYPE html>
             <html lang="en">
             <head>
                 <meta charset="UTF-8" />
-                <title>打印</title>
+                <title>印</title>
                 <style>
                     .style_display_block {
                         display: block !important;
@@ -255,7 +255,7 @@ export default function (config: HtmlConstruct = {style: "", script: ""}) {
                         </div>
                         <div class="options">
                             <div class="headerContainer">
-                                <h1 class="title">打印</h1>
+                                <h1 class="title">印</h1>
                             </div>
                             <div class="printOptions">
                                 <div>
